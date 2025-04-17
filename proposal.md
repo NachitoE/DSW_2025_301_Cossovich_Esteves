@@ -1,9 +1,9 @@
-# Propuesta TP DSW
+# Propuesta - Avistandoo
 
 ## Grupo
 ### Integrantes
-* legajo - Apellido(s), Nombre(s)
-
+* 51530 - Cossovich, Noah
+* 50345 - Esteves, Ignacio
 ### Repositorios
 * [frontend app](http://hyperlinkToGihubOrGitlab)
 * [backend app](http://hyperlinkToGihubOrGitlab)
@@ -11,7 +11,7 @@
 
 ## Tema
 ### Descripción
-*2 a 6 líneas describiendo el negocio (menos es más)*
+*Web de identificación de aves, filtrando diferentes características físicas (ej; forma pico, patas, plumaje, etc.) utilizando lógica difusa.*
 
 ### Modelo
 ![imagen del modelo]()
