@@ -37,7 +37,7 @@ Adicionales para Aprobación:
 | Req | Detalle |
 |-----|---------|
 | **CRUD completo** | 1. `Usuario` <br> 2. `CaracteristicaVisual` <br> 3. `Ave` <br> 4. `CaracteristicaAve` <br> 5. `Comentario` <br> 6. `ImagenComentario` <br> 7. `Avistamiento` <br> 8. `MatrizSimilitud` |
-| **CUU / Epic (1 por integrante)** | CUU 1: Buscar aves con lógica difusa aplicada a características visuales <br> CUU 2: Comentar una ave incluyendo imágenes o avistamiento |
+| **CUU / Epic** | CUU 1: Buscar aves con lógica difusa aplicada a características visuales <br> CUU 2: Comentar una ave incluyendo imágenes o avistamiento |
 
 ---
 
