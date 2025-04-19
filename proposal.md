@@ -13,40 +13,36 @@
 ### Descripción
 *Web de identificación de aves, filtrando diferentes características físicas (ej; forma pico, patas, plumaje, etc.) utilizando lógica difusa.*
 
-### Modelo
-![imagen del modelo]()
+## Modelo
 
-*Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
+![Avistandoo drawio(1)](https://github.com/user-attachments/assets/d0a61280-da6c-45ba-b656-21a73dc030a4)
 
-## Alcance Funcional 
+---
+
+## Alcance Funcional
 
 ### Alcance Mínimo
 
-*Nota*: el siguiente es un ejemplo para un grupo de 3 integrantes para un sistema de hotel. El 
-
 Regularidad:
-|Req|Detalle|
-|:-|:-|
-|CRUD simple|1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad|
-|CRUD dependiente|1. CRUD Habitación {depende de} CRUD Tipo Habitacion<br>2. CRUD Cliente {depende de} CRUD Localidad|
-|Listado<br>+<br>detalle| 1. Listado de habitaciones filtrado por tipo de habitación, muestra nro y tipo de habitación => detalle CRUD Habitacion<br> 2. Listado de reservas filtrado por rango de fecha, muestra nro de habitación, fecha inicio y fin estadía, estado y nombre del cliente => detalle muestra datos completos de la reserva y del cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva|
 
+| Req | Detalle |
+|-----|---------|
+| **CRUD simple** | 1. `Usuario` <br> 2. `CaracteristicaVisual` |
+| **CRUD dependiente** | 1. `Ave` (dependiente de características)<br> 2. `Comentario` (dependiente de usuario y ave) |
+| **Listado + detalle** | 1. Listado de aves filtrado por características visuales → Detalle CRUD Ave |
+| **CUU / Epic** | 1. Buscar aves aplicando filtros de características <br> 2. Comentar en la publicación de un ave, adjuntando (opcional) imágenes y/o información sobre el avistamiento |
 
-Adicionales para Aprobación
-|Req|Detalle|
-|:-|:-|
-|CRUD |1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad<br>4. CRUD Provincia<br>5. CRUD Habitación<br>6. CRUD Empleado<br>7. CRUD Cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva<br>3. Realizar el check-out y facturación de estadía y servicios|
+Adicionales para Aprobación:
 
+| Req | Detalle |
+|-----|---------|
+| **CRUD completo** | 1. `Usuario` <br> 2. `CaracteristicaVisual` <br> 3. `Ave` <br> 4. `CaracteristicaAve` <br> 5. `Comentario` <br> 6. `ImagenComentario` <br> 7. `Avistamiento` <br> 8. `MatrizSimilitud` |
+| **CUU / Epic (1 por integrante)** | CUU 1: Buscar aves con lógica difusa aplicada a características visuales <br> CUU 2: Comentar una ave incluyendo imágenes o avistamiento |
+
+---
 
 ### Alcance Adicional Voluntario
 
-*Nota*: El Alcance Adicional Voluntario es opcional, pero ayuda a que la funcionalidad del sistema esté completa y será considerado en la nota en función de su complejidad y esfuerzo.
+A definir...
 
-|Req|Detalle|
-|:-|:-|
-|Listados |1. Estadía del día filtrado por fecha muestra, cliente, habitaciones y estado <br>2. Reservas filtradas por cliente muestra datos del cliente y de cada reserve fechas, estado cantidad de habitaciones y huespedes|
-|CUU/Epic|1. Consumir servicios<br>2. Cancelación de reserva|
-|Otros|1. Envío de recordatorio de reserva por email|
 
