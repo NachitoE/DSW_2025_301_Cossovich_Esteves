@@ -28,16 +28,16 @@ Regularidad:
 | Req | Detalle |
 |-----|---------|
 | **CRUD simple** | 1. `Usuario` <br> 2. `CaracteristicaVisual` |
-| **CRUD dependiente** | 1. `Ave` (dependiente de características)<br> 2. `Comentario` (dependiente de usuario y ave) |
+| **CRUD dependiente** | 1. `Ave` (dependiente de características) |
 | **Listado + detalle** | 1. Listado de aves filtrado por características visuales → Detalle CRUD Ave |
-| **CUU / Epic** | 1. Buscar aves aplicando filtros de características <br> 2. Comentar en la publicación de un ave |
+| **CUU / Epic** | 1. Buscar aves aplicando filtros de características |
 
 Adicionales para Aprobación:
 
 | Req | Detalle |
 |-----|---------|
 | **CRUD completo** | 1. `Usuario` <br> 2. `CaracteristicaVisual` <br> 3. `Ave` <br> 4. `CaracteristicaAve` <br> 5. `Comentario` <br> 6. `ImagenComentario` <br> 7. `Avistamiento` <br> 8. `MatrizSimilitud` |
-| **CUU / Epic** | CUU 1: Buscar aves con lógica difusa aplicada a características visuales <br> CUU 2: Comentar una ave incluyendo (opcional) imágenes <br> CUU 3: Registrar avistamiento de ave |
+| **CUU / Epic** | CUU 1: Buscar aves con lógica difusa aplicada a características visuales |
 
 ---
 
