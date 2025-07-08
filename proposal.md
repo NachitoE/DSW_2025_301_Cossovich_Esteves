@@ -5,8 +5,8 @@
 * 51530 - Cossovich, Noah
 * 50345 - Esteves, Ignacio
 ### Repositorios
-* [frontend app](http://hyperlinkToGihubOrGitlab)
-* [backend app](http://hyperlinkToGihubOrGitlab)
+* [frontend app](https://github.com/NachitoE/DSW_2025_301_Cossovich_Esteves_FrontEnd)
+* [backend app](https://github.com/NachitoE/DSW_2025_301_Cossovich_Esteves_BackEnd)
 *Nota*: si utiliza un monorepo indicar un solo link con fullstack app.
 
 ## Tema
